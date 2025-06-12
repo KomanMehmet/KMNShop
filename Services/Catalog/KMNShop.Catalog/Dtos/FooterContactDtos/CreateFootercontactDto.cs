@@ -1,6 +1,6 @@
 ﻿namespace KMNShop.Catalog.Dtos.FooterContactDtos
 {
-    public class CreateFootercontactDto
+    public class CreateFooterContactDto
     {
         public string Address { get; set; }
 

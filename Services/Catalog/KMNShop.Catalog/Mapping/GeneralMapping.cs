@@ -46,7 +46,7 @@ namespace KMNShop.Catalog.Mapping
 
             CreateMap<FooterContact, ResultFooterContactDto>().ReverseMap();
             CreateMap<FooterContact, UpdateFooterContactDto>().ReverseMap();
-            CreateMap<FooterContact, CreateFootercontactDto>().ReverseMap();
+            CreateMap<FooterContact, CreateFooterContactDto>().ReverseMap();
             CreateMap<FooterContact, GetByIdFooterContactDto>().ReverseMap();
 
             CreateMap<FooterLink, ResultFooterLinkDto>().ReverseMap();
