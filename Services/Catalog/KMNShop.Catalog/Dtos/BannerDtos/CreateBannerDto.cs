@@ -1,6 +1,6 @@
 ﻿namespace KMNShop.Catalog.Dtos.BannerDtos
 {
-    public class CreateBannderDto
+    public class CreateBannerDto
     {
         public string ImageUrl { get; set; }
 

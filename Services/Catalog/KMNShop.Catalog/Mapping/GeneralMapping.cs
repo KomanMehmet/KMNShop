@@ -26,7 +26,7 @@ namespace KMNShop.Catalog.Mapping
         {
             CreateMap<Banner, ResultBannerDto>().ReverseMap();
             CreateMap<Banner, UpdateBannerDto>().ReverseMap();
-            CreateMap<Banner, CreateBannderDto>().ReverseMap();
+            CreateMap<Banner, CreateBannerDto>().ReverseMap();
             CreateMap<Banner, GetByIdBannerDto>().ReverseMap();
 
             CreateMap<Brand, ResultBrandDto>().ReverseMap();
