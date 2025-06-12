@@ -1,6 +1,6 @@
 ﻿namespace KMNShop.Catalog.Dtos.CategoryDtos
 {
-    public class GeyByIdCategoryDto
+    public class GetByIdCategoryDto
     {
         public string CategoryID { get; set; }
 
