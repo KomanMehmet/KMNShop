@@ -11,6 +11,7 @@ namespace KMNShop.Catalog.Entities
 
         public List<string> ImageUrls { get; set; }
 
+        [BsonRepresentation(BsonType.ObjectId)]
         public string ProductID { get; set; }
 
         [BsonIgnore]

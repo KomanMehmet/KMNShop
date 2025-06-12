@@ -13,6 +13,7 @@ namespace KMNShop.Catalog.Entities
 
         public List<ProductSpecification> ProductSpecification { get; set; }
 
+        [BsonRepresentation(BsonType.ObjectId)]
         public string ProductID { get; set; }
 
         [BsonIgnore]

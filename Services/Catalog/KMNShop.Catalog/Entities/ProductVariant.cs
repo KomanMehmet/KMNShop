@@ -15,6 +15,7 @@ namespace KMNShop.Catalog.Entities
 
         public int Stock { get; set; }
 
+        [BsonRepresentation(BsonType.ObjectId)]
         public string ProductID { get; set; }
 
         [BsonIgnore]
